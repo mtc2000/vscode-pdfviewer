@@ -24,16 +24,16 @@
     "url": "https://github.com/mtc2000/vscode-pdfviewer/issues"
   },
   "homepage": "https://github.com/mtc2000/vscode-pdfviewer",
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
   "activationEvents": [
     "onCustomEditor:pdf.preview"
   ],
   "main": "./out/src/extension",
   "contributes": {
-    "capabilities": {
-      "untrustedWorkspaces": {
-        "supported": true
-      }
-    },
     "customEditors": [
       {
         "viewType": "pdf.preview",
