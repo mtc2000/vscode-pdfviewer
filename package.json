@@ -1,6 +1,6 @@
 {
-  "name": "vscode-pdfviewer",
-  "displayName": "VSCode PDF Viewer (PDF.js 5)",
+  "name": "vscode-pdf-viewer",
+  "displayName": "PDF Viewer for VS Code (PDF.js 5)",
   "description": "Maintained fork of vscode-pdfviewer using pdf.js 5.6.205.",
   "version": "5.6.205",
   "publisher": "mtc2000",
